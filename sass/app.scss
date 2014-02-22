@@ -1,0 +1,11 @@
+// customize css part
+
+// this app import all style from bootstrap
+@import "vendors/bootstrap3.1/bootstrap";
+
+
+
+.container{
+  @include square(500px);
+  @include gradient-radial;
+}
